@@ -1,0 +1,26 @@
+# Environment Folders
+# -------------------
+venv/
+.venv/
+env/
+.env
+
+# Vercel Local Development
+# ------------------------
+.vercel/
+.output/
+
+# Python Cache
+# ------------
+__pycache__/
+*.pyc
+
+# IDE / Editor specific
+# ---------------------
+.vscode/
+.idea/
+
+# Node.js Dependencies (Good to have if you ever run the frontend locally)
+# ----------------------------------------------------------------------
+node_modules/
+npm-debug.log
