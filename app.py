@@ -25,7 +25,7 @@ from tools_extra import (
 
 # --- Flask setup ---
 app = Flask(__name__)
-CORS(app)                                       # allow React fetches
+CORS(app, resources={r"/chat": {"origins": "https://project-healthadvice.vercel.app"}})
 
 # --- LangChain model + tools ---
 model = AzureChatOpenAI(
