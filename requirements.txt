@@ -3,6 +3,7 @@
 # Core web framework
 flask
 flask_cors
+gunicorn
 
 # LangChain components
 langchain
